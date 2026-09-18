@@ -4,7 +4,7 @@ from fastmcp import FastMCP
 # FastMCP Cloud uses Streamable HTTP (default), so just use the /mcp URL
 mcp = FastMCP.as_proxy(
     "https://literary-teal-herring.fastmcp.app/mcp",  # Standard FastMCP Cloud URL
-    name="Nitish Server Proxy"
+    name="Server Proxy"
 )
 
 if __name__ == "__main__":
